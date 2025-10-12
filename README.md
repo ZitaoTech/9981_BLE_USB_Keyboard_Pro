@@ -35,6 +35,18 @@ How to check the Bluetooth version of your device: google (your device name) lik
 ## <a name='Concept of Layer   '>Concept of Layer   </a>  
 ## <a name='Keymap  '>Keymap   </a>
 ## <a name='Realtime Keymap Updating  '>Realtime Keymap Updating   </a>
+ZMK Studio provides runtime update functionality to ZMK powered devices, allowing users to change their keymap layers without flashing new firmware to their keyboards.  
+
+You can use ZMK Studio with ```Chrome/Edge``` at [https://zmk.studio/](https://zmk.studio/).  
+
+Before you use ZMK Studio, you need to ```turn off``` the bluetooth from your phone that the keyboard is paired with, then you can select the port shown on the ZMK Studio page and then start the keymap updating.  
+
+The picture below shows you how it looks like when the keyboard connects with ZMK Studio successfully.
+
+<img width="3102" height="1390" alt="image" src="https://github.com/user-attachments/assets/dcad38e5-0f24-43c1-82c1-8d4393dfe47e" />
+
+⚠️**Note!** Currently The ZMK Studio is still beta version, there are some functions that ```can not``` be configured e.g. macro, there is another advanced way to update the keymap, please check the content below
+## <a name='Advanced Keymap Updating  '>Advanced Keymap Updating   </a>
 ## <a name='How to update the firmware  '> How to update the firmware   </a>
 ## <a name='Emergency way to enter bootloader  '> Emergency way to enter bootloader   </a>
 
