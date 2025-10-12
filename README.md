@@ -47,6 +47,7 @@ The picture below shows you how it looks like when the keyboard connects with ZM
 
 ⚠️**Note!** Currently The ZMK Studio is still beta version, there are some functions that ```can not``` be configured e.g. macro, there is another advanced way to update the keymap, please check the content below
 ## <a name='Advanced Keymap Updating  '>Advanced Keymap Updating   </a>
+## <a name='Mouse DPI change on the fly  '> Mouse DPI change on the fly   </a>
 ## <a name='How to update the firmware  '> How to update the firmware   </a>
 ## <a name='Emergency way to enter bootloader  '> Emergency way to enter bootloader   </a>
 # <a name='Some tipps for using this keyboard  '>Some tipps for using this keyboard  
