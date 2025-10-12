@@ -19,3 +19,9 @@ This mini Keyboard uses the cloned P9981 keycap with Blackberry 9380 trackpad an
 |USB&BLE Output|Support both wired and wireless connect|
 |Shoulder keys|There are two shoulder keys on top|
 |Multidevice connect| The keyboard can be paired with up to 4 devices at the same time|
+
+## <a name='Before you buy/use  '>Before you buy/use   </a>
+
+**Bluetooth version check**: This keyboard can only be paired wirelessly with devices that have **BLE 4.2 modul or higher**, please check if your device have the right Bluetooth modul, otherwise the keyboard can not work with your device wirelessly!  
+How to check the Bluetooth version of your device: google (your device name) like iphone 8 and plus Bluetooth version and you will find the answer like this:
+ <img src="https://github.com/ZitaoTech/BB9900-USB_BLE_Keyboard/blob/main/Pics/BLE%20VERSION%20check.png" width = "500" height = "200" alt="BLE VERSION CHECK" align=center />
