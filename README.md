@@ -7,3 +7,15 @@ Description about the 9981 BLE&amp;USB Keyboard Pro with trackpad
 
 # <a name='About this keyboard  '>About this keyboard   </a>
 This mini Keyboard uses the cloned P9981 keycap with Blackberry 9380 trackpad and powered by the NRF52840 Microcontroller and operates under ZMK Firmware with extra custom driver.  
+
+
+| Main Features      |  |   
+| :---        |    :----:   | 
+| Processor      | [NRF52840](https://www.nordicsemi.com/products/nrf52840) from Nordic Semiconductor | 
+| Firmware   | ZMK firmware  | 
+|Battery type| Integrated li-on battery|
+|Battery capacity| 750mah with up to 3 months battery life(assume 1 hour per day)|
+|Mouse and scroll wheel 2 in 1|When Capslock, the trackpad works as scroll wheel|
+|USB&BLE Output|Support both wired and wireless connect|
+|Shoulder keys|There are two shoulder keys on top|
+|Multidevice connect| The keyboard can be paired with up to 4 devices at the same time|
