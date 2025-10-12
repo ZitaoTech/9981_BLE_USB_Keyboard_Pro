@@ -67,3 +67,10 @@ First you need to build the toolchain of ZMK firmware, it's recommended to build
 <img width="744" height="496" alt="image" src="https://github.com/user-attachments/assets/3c08bbc8-ac93-4895-8304-b2366401aae5" />
  
 3. When the codespace is finished setting up, type ```sh ``` in the terminal of the codespace  
+
+# <a name='Others  '>Others   </a>  
+## <a name='dimensions about the keyboard  '>dimensions about the keyboard   </a>  
+The picture below shows the outerline dimension of the keyboard  
+<img width="1786" height="1216" alt="9981_PRO_dimension" src="https://github.com/user-attachments/assets/2382bf18-76bf-47c8-8188-512b67dbcade" />
+## <a name='Weight  '>Weight   </a>  
+The total weight of the keyboard is 53.3 g
