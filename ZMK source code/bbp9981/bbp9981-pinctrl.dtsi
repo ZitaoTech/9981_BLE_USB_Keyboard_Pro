@@ -1,0 +1,86 @@
+/*
+ * Copyright (c) 2025 ZitaoTech
+ * SPDX-License-Identifier: MIT
+ */
+
+&pinctrl {
+    i2c0_default: i2c0_default {
+        group1 {
+            psels = <NRF_PSEL(TWIM_SDA, 0, 22)>,
+                <NRF_PSEL(TWIM_SCL, 1, 00)>;
+        };
+    };
+
+    i2c0_sleep: i2c0_sleep {
+        group1 {
+            psels = <NRF_PSEL(TWIM_SDA, 0, 22)>,
+                <NRF_PSEL(TWIM_SCL, 1, 00)>;
+            low-power-enable;
+        };
+    };
+    
+    spi3_default: spi3_default {
+        group1 {
+            psels = <NRF_PSEL(SPIM_MOSI, 0, 15)>;    // Setting for RGB light, unreal
+        };
+    };
+
+    spi3_sleep: spi3_sleep {
+        group1 {
+            psels = <NRF_PSEL(SPIM_MOSI, 0, 15)>;
+            low-power-enable;
+        };
+    };
+
+    pwm0_default:pwm0_default{
+        group1{
+            psels = <NRF_PSEL(PWM_OUT0, 0, 15)>; // Backlight for backlight.c unreal
+        };
+    };
+
+    pwm0_sleep: pwm0_sleep {
+        group1 {
+            psels = <NRF_PSEL(PWM_OUT0, 0, 15)>;
+            bias-pull-down;
+        };
+    };
+
+    pwm1_default:pwm1_default{
+        group1{
+            psels = <NRF_PSEL(PWM_OUT0, 0, 10)>; // Backlight for Trackpad
+        };
+    };
+
+    pwm1_sleep: pwm1_sleep {
+        group1 {
+            psels = <NRF_PSEL(PWM_OUT0, 0, 10)>;
+            bias-pull-down;
+        };
+    };
+
+    pwm2_default: pwm2_default {
+        group1 {
+            psels = <NRF_PSEL(PWM_OUT0, 0, 9)>; // Backlight for Middle Layerindicator
+        };
+    };
+
+    pwm2_sleep: pwm2_sleep {
+        group1 {
+            psels = <NRF_PSEL(PWM_OUT0, 0, 9)>;
+            bias-pull-down;
+        };
+    };
+
+    pwm3_default:pwm3_default{
+        group1{
+            psels = <NRF_PSEL(PWM_OUT0, 1, 4)>; // Backlight for middle keyboard backlight
+        };
+    };
+
+    pwm3_sleep: pwm3_sleep {
+        group1 {
+            psels = <NRF_PSEL(PWM_OUT0, 1, 4)>;
+            bias-pull-down;
+        };
+    };
+};

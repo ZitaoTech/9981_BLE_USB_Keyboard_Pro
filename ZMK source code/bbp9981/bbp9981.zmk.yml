@@ -1,0 +1,11 @@
+file_format: "1"
+id: bbp9981
+name: bbp9981
+type: board
+arch: arm
+features:
+  - keys
+outputs:
+  - usb
+  - ble
+url: https://github.com/ZitaoTech/BBQ10-USB_BLE_Keyboard

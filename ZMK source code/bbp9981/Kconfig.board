@@ -1,0 +1,17 @@
+# Copyright (c) 2023 ZitaoTech
+# SPDX-License-Identifier: MIT
+
+config BOARD_BBP9981
+    bool "bbp9981"
+    depends on SOC_NRF52840_QIAA
+
+menu "A320 Trackpad Setting"
+
+config A320_TRACKPAD_SCROLL_INTERVAL
+    int "Trackpad scroll in miliseconds"
+    default 50
+    range 0 200
+    help
+      The bigger this value, the slower the trackpad scrolls
+
+endmenu

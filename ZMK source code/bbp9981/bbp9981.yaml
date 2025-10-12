@@ -1,0 +1,15 @@
+identifier: bbp9981
+name: bbp9981
+type: mcu
+arch: arm
+toolchain:
+  - zephyr
+  - gnuarmemb
+supported:
+  - adc
+  - i2c
+  - usb_device
+  - ble
+  - ieee802154
+  - pwm
+  - watchdog
