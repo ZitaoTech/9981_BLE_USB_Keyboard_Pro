@@ -18,6 +18,8 @@ This mini Keyboard uses the cloned P9981 keycap with Blackberry 9380 trackpad an
 |Mouse and scroll wheel 2 in 1|When Capslock, the trackpad works as scroll wheel|
 |USB&BLE Output|Support both wired and wireless connect|
 |Shoulder keys|There are two shoulder keys on top|
+|Small size| The smallest wireless keyboard mouse combo in the world|
+|Aluminium body|The upper case is made of aluminium, lower case 3d printed|
 |Multidevice connect| The keyboard can be paired with up to 4 devices at the same time|
 |__NKRO__|__There are integrated diodes on the keyboard, all the keys can be pressed at the same time__|
 
