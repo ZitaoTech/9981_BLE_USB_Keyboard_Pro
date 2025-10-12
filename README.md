@@ -53,10 +53,10 @@ The picture below shows you how it looks like when the keyboard connects with ZM
 ## <a name='iphone or IOS users  '>iphone or IOS users  
 # <a name='Advanced methods of using this keyboard  '>Advanced methods of using this keyboard   </a>  
 ## <a name='Build your own firmware   '>Build your own firmware   </a> 
-First you need to build the toolchain of ZMK firmware, it's recommended to build it under Github Codespaces. Here are the steps for you to build the toolchain via Codespaces:
+First you need to build the toolchain of ZMK firmware, it's recommended to build it under Github Codespaces. Here are the steps for you to build the toolchain via Codespaces:  
 0. Register a Github account if you don't have one
 1. Access the zmk firmware [github page](https://github.com/zmkfirmware/zmk)  
 2. Create a codespace by clicking this icon:  
 <img width="744" height="496" alt="image" src="https://github.com/user-attachments/assets/3c08bbc8-ac93-4895-8304-b2366401aae5" />
  
-4. When the codespace is finished setting up, type ```sh ``` in the terminal of the codespace  
+3. When the codespace is finished setting up, type ```sh ``` in the terminal of the codespace  
