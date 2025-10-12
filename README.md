@@ -13,6 +13,7 @@ This mini Keyboard uses the cloned P9981 keycap with Blackberry 9380 trackpad an
 | :---        |    :----:   | 
 | Processor      | [NRF52840](https://www.nordicsemi.com/products/nrf52840) from Nordic Semiconductor | 
 | Firmware   | ZMK firmware  | 
+| Backlight | Keyboard with white backlight|
 |Battery type| Integrated li-on battery|
 |Battery capacity| 750mah with up to 3 months battery life(assume 1 hour per day)|
 |Mouse and scroll wheel 2 in 1|When Capslock, the trackpad works as scroll wheel|
