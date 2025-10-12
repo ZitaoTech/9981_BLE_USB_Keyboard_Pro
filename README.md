@@ -38,3 +38,4 @@ How to check the Bluetooth version of your device: google (your device name) lik
 
 # <a name='Advanced methods of using this keyboard  '>Advanced methods of using this keyboard   </a>  
 ## <a name='Build your own firmware   '>Build your own firmware   </a> 
+First you need to build the toolchain of ZMK firmware, it's recommended to build it under Github Codespaces.
