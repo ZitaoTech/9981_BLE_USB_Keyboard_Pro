@@ -49,7 +49,8 @@ The picture below shows you how it looks like when the keyboard connects with ZM
 ## <a name='Advanced Keymap Updating  '>Advanced Keymap Updating   </a>
 ## <a name='How to update the firmware  '> How to update the firmware   </a>
 ## <a name='Emergency way to enter bootloader  '> Emergency way to enter bootloader   </a>
-
+# <a name='Some tipps for using this keyboard  '>Some tipps for using this keyboard  
+## <a name='iphone or IOS users  '>iphone or IOS users  
 # <a name='Advanced methods of using this keyboard  '>Advanced methods of using this keyboard   </a>  
 ## <a name='Build your own firmware   '>Build your own firmware   </a> 
 First you need to build the toolchain of ZMK firmware, it's recommended to build it under Github Codespaces.
