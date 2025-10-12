@@ -19,6 +19,7 @@ This mini Keyboard uses the cloned P9981 keycap with Blackberry 9380 trackpad an
 |USB&BLE Output|Support both wired and wireless connect|
 |Shoulder keys|There are two shoulder keys on top|
 |Multidevice connect| The keyboard can be paired with up to 4 devices at the same time|
+|__NKRO__|__There are integrated diodes on the keyboard, all the keys can be pressed at the same time__|
 
 ## <a name='Before you buy/use  '>Before you buy/use   </a>
 
