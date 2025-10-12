@@ -1,5 +1,5 @@
 # 9981_BLE_USB_Keyboard_Pro
-Description about the 9981 BLE&amp;USB Keyboard Pro with trackpad
+<img src="https://github.com/ZitaoTech/9981_BLE_USB_Keyboard_Pro/blob/main/Pic/9981_PRO_1.jpg" width = "950" height = "700" alt="View1" align=center />  
 
 
 [**About this keyboard**  ](#about-this-keyboard---)  
