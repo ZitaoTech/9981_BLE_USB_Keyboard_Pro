@@ -35,3 +35,6 @@ How to check the Bluetooth version of your device: google (your device name) lik
 ## <a name='Realtime Keymap Updating  '>Realtime Keymap Updating   </a>
 ## <a name='How to update the firmware  '> How to update the firmware   </a>
 ## <a name='Emergency way to enter bootloader  '> Emergency way to enter bootloader   </a>
+
+# <a name='Advanced methods of using this keyboard  '>Advanced methods of using this keyboard   </a>  
+## <a name='Build your own firmware   '>Build your own firmware   </a> 
