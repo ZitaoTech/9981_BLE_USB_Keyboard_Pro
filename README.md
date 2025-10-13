@@ -1,8 +1,9 @@
 # 9981_BLE_USB_Keyboard_Pro
+[**Check the beautiful photos of 9981 keyboard first**](https://github.com/ZitaoTech/9981_BLE_USB_Keyboard_Pro/tree/main/Gallery)  
 <img src="https://github.com/ZitaoTech/9981_BLE_USB_Keyboard_Pro/blob/main/Pic/9981_PRO_1.jpg" width = "950" height = "700" alt="View1" align=center />  
 
 
-[**About this keyboard**  ](#about-this-keyboard---)  
+[About this keyboard**  ](#about-this-keyboard---)  
 [Before you buy/use  ](#before-you-buyuse---)  
 
 # <a name='About this keyboard  '>About this keyboard   </a>
