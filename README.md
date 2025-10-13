@@ -1,6 +1,7 @@
 # 9981_BLE_USB_Keyboard_Pro
 [**Check the beautiful photos of 9981 keyboard first**](https://github.com/ZitaoTech/9981_BLE_USB_Keyboard_Pro/tree/main/Gallery)  
-<img src="https://github.com/ZitaoTech/9981_BLE_USB_Keyboard_Pro/blob/main/Pic/9981_PRO_1.jpg" width = "950" height = "700" alt="View1" align=center />  
+<img width="2344" height="1532" alt="image" src="https://github.com/user-attachments/assets/ae609ea2-bde2-42c0-93b4-36c062c18916" />
+
 
 
 [About this keyboard**  ](#about-this-keyboard---)  
