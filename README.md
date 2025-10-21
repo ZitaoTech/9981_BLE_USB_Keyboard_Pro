@@ -58,7 +58,10 @@ The picture below shows you how it looks like when the keyboard connects with ZM
 
 <img width="3102" height="1390" alt="image" src="https://github.com/user-attachments/assets/dcad38e5-0f24-43c1-82c1-8d4393dfe47e" />
 
-⚠️**Note!** Currently The ZMK Studio is still beta version, there are some functions that ```can not``` be configured e.g. macro, there is another advanced way to update the keymap, please check the content below
+> [!NOTE]
+> Currently The ZMK Studio is still beta version, there are some functions that ```can not``` be configured e.g. macro, 
+> there is another advanced way to update the keymap, please check the content below
+
 ## <a name='Advanced Keymap Updating  '>Advanced Keymap Updating   </a>
 ## <a name='Mouse DPI change on the fly  '> Mouse DPI change on the fly   </a>
 ## <a name='How to update the firmware  '> How to update the firmware   </a>
