@@ -38,9 +38,13 @@ How to check the Bluetooth version of your device: google (your device name) lik
 # <a name='How to use this keyboard  '>How to use this keyboard   </a>  
 ## <a name='Concept of Layer   '>Concept of Layer   </a>  
 ## <a name='Keymap  '>Keymap   </a>
+**Layer0-QWERT**    
 <img width="1920" height="1174" alt="9981_PRO_layer0" src="https://github.com/user-attachments/assets/7bf9b876-41b6-4618-8528-f4447dbfe77d" />
+**Layer1-Numbers and symbols**    
 <img width="1638" height="1002" alt="9981_PRO_layer1" src="https://github.com/user-attachments/assets/12def0c4-4b1e-46fd-893f-cd3280318965" />
+**Layer2-Functional keys**   
 <img width="1934" height="1176" alt="9981_PRO_layer2" src="https://github.com/user-attachments/assets/e7b2ab51-f7c6-4130-9f65-834ff672cf56" />
+**Layer3-Reserved layer for extra keys**   
 <img width="1650" height="1002" alt="9981_PRO_layer3" src="https://github.com/user-attachments/assets/6eaa7f11-12d5-480a-a6e3-967efd103660" />
 
 ## <a name='Realtime Keymap Updating  '>Realtime Keymap Updating   </a>
