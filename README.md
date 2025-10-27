@@ -106,7 +106,7 @@ How to check the Bluetooth version of your device: google (your device name) lik
 - Enter layer 2 and doubletap the trackpad(You can tap the lower right aA key to trigger sticky layer 2 or hold the aA key to enter layer2)
 - Refresh the Bluetooth setting page on your device(You can turn on and off the bluetooth) and then you can pair with the keyboard again
 
-## Trackpad [🔼](#Trackpad)
+## Trackpad [🔼](#contents)
 
 ## <a name='Realtime Keymap Updating  '>Realtime Keymap Updating   </a>
 [ZMK Studio](https://zmk.dev/docs/features/studio) provides runtime update functionality to ZMK powered devices, allowing users to change their keymap layers without flashing new firmware to their keyboards.  
