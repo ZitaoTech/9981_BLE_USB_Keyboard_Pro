@@ -3,12 +3,11 @@
 <img width="1744" height="1202" alt="image" src="https://github.com/user-attachments/assets/34680f5f-0e0e-4d0e-88fc-5a45a9d949fd" />
 
 
+## Contents
+- [About this keyboard](#About-this-keyboard-)
+- 
 
-
-[About this keyboard**  ](#about-this-keyboard---)  
-[Before you buy/use  ](#before-you-buyuse---)  
-
-# <a name='About this keyboard  '>About this keyboard   </a>
+# About this keyboard [🔼](#contents)
 This mini Keyboard uses the cloned P9981 keycap with Blackberry 9380 trackpad and powered by the NRF52840 Microcontroller and operates under ZMK Firmware with extra custom driver.  
 
 
@@ -25,7 +24,7 @@ This mini Keyboard uses the cloned P9981 keycap with Blackberry 9380 trackpad an
 |Small size| The smallest wireless keyboard mouse combo in the world|
 |Aluminium body|The upper case is made of aluminium, lower case 3d printed|
 |Multidevice connect| The keyboard can be paired with up to 4 devices at the same time|
-|__NKRO__|__There are integrated diodes on the keyboard, all the keys can be pressed at the same time__|
+|__NKRO__|__There are integrated diodes on the keyboard, all the keys can be pressed at the same time__(Other original Blackberry keyboards don't have this feature)|
 
 ## <a name='Before you buy/use  '>Before you buy/use   </a>
 
@@ -93,6 +92,7 @@ The picture below shows you how it looks like when the keyboard connects with ZM
 > Currently The ZMK Studio is still beta version, there are some functions that ```can not``` be configured e.g. macro, 
 > there is another advanced way to update the keymap, please check the content below
 
+## Bluetooth connect [🔼](#contents)
 ## <a name='Advanced Keymap Updating  '>Advanced Keymap Updating   </a>
 ## <a name='Mouse DPI change on the fly  '> Mouse DPI change on the fly   </a>
 ## <a name='How to update the firmware  '> How to update the firmware   </a>
