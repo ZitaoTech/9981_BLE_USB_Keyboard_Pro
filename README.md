@@ -17,8 +17,12 @@ The fully open-sourced P9981 BLE&USB Keyboard is the smallest ZMK-powered keyboa
 
 ## Contents
 - [About this keyboard](#About-this-keyboard-)
+- [Before you buy/use](#Before-you-buy-)
+- [Where to buy](#Where-to-buy-)
+- [How to use this keyboard](#How-to-use-this-keyboard-)
+- [How to connect this keyboard with your device](How-to-connect-this-keyboard-with-your-device-)
+- [Trackpad](Trackpad-)
 - 
-
 # About this keyboard [🔼](#contents)
 This mini Keyboard uses the cloned P9981 keycap with Blackberry 9380 trackpad and powered by the NRF52840 Microcontroller and operates under ZMK Firmware with extra custom driver.  
 
@@ -38,16 +42,17 @@ This mini Keyboard uses the cloned P9981 keycap with Blackberry 9380 trackpad an
 |Multidevice connect| The keyboard can be paired with up to 4 devices at the same time|
 |__NKRO__|__There are integrated diodes on the keyboard, all the keys can be pressed at the same time__(Other original Blackberry keyboards don't have this feature)|
 
-## <a name='Before you buy/use  '>Before you buy/use   </a>
+## Before you buy/use [🔼](#contents)
 
 **Bluetooth version check**: This keyboard can only be paired wirelessly with devices that have **BLE 4.2 module or higher**, please check if your device have the right Bluetooth module, otherwise the keyboard can not work with your device wirelessly!  
 How to check the Bluetooth version of your device: google (your device name) like iphone 8 and plus Bluetooth version and you will find the answer like this:
  <img src="https://github.com/ZitaoTech/BB9900-USB_BLE_Keyboard/blob/main/Pics/BLE%20VERSION%20check.png" width = "500" height = "200" alt="BLE VERSION CHECK" align=center />
 
-## <a name='Where to buy  '>Where to buy   </a>  
+## Where to buy [🔼](#contents)
 - **If you are outside China**:    
 - **If you are in China**: 在闲鱼搜索用户御坂200016号
-# <a name='How to use this keyboard  '>How to use this keyboard   </a>  
+
+# How to use this keyboard [🔼](#contents)
 - By default the keyboard has 4 Layers, when you just turn on the keyboard, the keyboard is at layer0-the QWERTY layer.  
 - When you tap or hold the ```SYM``` key, the keyboard will enter layer1, and the keyboard backlight will start blinking, you can type numbers or symbols at this layer.  
 - When you tap or hold the ```aA``` key at the lower right corner, the keyboard will enter layer2 and the keyboard backlight will do a loop effect, you can type some symbols and do some Bluetooth behaviors at this layer.
@@ -55,7 +60,7 @@ How to check the Bluetooth version of your device: google (your device name) lik
 
 
 **Now let's check the keymap.**  
-## <a name='Keymap  '>Keymap   </a>
+## Keymap [🔼](#contents)
 **Layer0-QWERTY**    
 <p align="center">
   <img src="https://github.com/user-attachments/assets/7bf9b876-41b6-4618-8528-f4447dbfe77d" width="100%" alt="9981_PRO_layer0">
@@ -78,7 +83,8 @@ How to check the Bluetooth version of your device: google (your device name) lik
 </p>
 
 > [!NOTE]
-> - **What does Eject key do?** When you press E at layer 2, the keyboard will type Eject, Eject can ```bring up``` or ```disable``` keyboard on screen on iphone, this key is important because on iphone by default the keyboard on screen is disable when iphone is connected withe external keyboard.  
+> - **What does Eject key do?** When you press E at layer 2, the keyboard will type Eject, Eject can ```bring up``` or ```disable``` keyboard on screen on iphone, this key is important because on iphone by default the keyboard on screen is disable when iphone is connected withe external keyboard.
+> - Double tap the trackpad on this layer which trigger the ```Clear bluetooth pairing``` is very important to pair with another device more info please check the content [How to connect this keyboard with your device](How-to-connect-this-keyboard-with-your-device-)
 > - This Layer contains many important keycode about Bluetooth connect and Multiconnect, more info please check
 
 **Layer3-Reserved layer for extra keys**   
@@ -88,7 +94,20 @@ How to check the Bluetooth version of your device: google (your device name) lik
 
 > [!NOTE]
 > - You enter Layer 3 by double tap dollar key at layer 1, you can customize how to enter this layer yourself by editting the keymap.  
-> - You can set some key at this layer as Media key like ```next song``` or ```pause``` which I think should be useful.  
+> - You can set some key at this layer as Media key like ```next song``` or ```pause``` which I think should be useful.
+
+## How to connect this keyboard with your device [🔼](#contents)
+- Turn on the Bluetooth on your phone
+- Find the device ```bbp9981``` and pair with it then you should type with the keyboard
+- There are some settings for IOS users, please check this.
+> [!CAUTION]
+> After you delete the bluetooth profile and if you want to pair with the keyboard with another device when you have already paired with some device before, make sure to enter layer 2 and double tap the trackpad to clear the bluetooth profile on the keyboard side. Otherwise there will be error when you want to pair with another device!!! Please use the following steps to delete the bluetooth pairing
+- First delete the bluetooth profile(somewhere it's called forget the device or unpair the device) on your device
+- Enter layer 2 and doubletap the trackpad(You can tap the lower right aA key to trigger sticky layer 2 or hold the aA key to enter layer2)
+- Refresh the Bluetooth setting page on your device(You can turn on and off the bluetooth) and then you can pair with the keyboard again
+
+## Trackpad [🔼](#Trackpad)
+
 ## <a name='Realtime Keymap Updating  '>Realtime Keymap Updating   </a>
 [ZMK Studio](https://zmk.dev/docs/features/studio) provides runtime update functionality to ZMK powered devices, allowing users to change their keymap layers without flashing new firmware to their keyboards.  
 
