@@ -20,8 +20,9 @@ The fully open-sourced P9981 BLE&USB Keyboard is the smallest ZMK-powered keyboa
 - [Before you buy/use](#Before-you-buy-)
 - [Where to buy](#Where-to-buy-)
 - [How to use this keyboard](#How-to-use-this-keyboard-)
-- [How to connect this keyboard with your device](How-to-connect-this-keyboard-with-your-device-)
-- [Trackpad](Trackpad-)
+- [How to connect this keyboard with your device](#How-to-connect-this-keyboard-with-your-device-)
+- [Multi device connect](#Multi-device-connect)
+- [Trackpad](#Trackpad-)
 - 
 # About this keyboard [🔼](#contents)
 This mini Keyboard uses the cloned P9981 keycap with Blackberry 9380 trackpad and powered by the NRF52840 Microcontroller and operates under ZMK Firmware with extra custom driver.  
@@ -105,6 +106,9 @@ How to check the Bluetooth version of your device: google (your device name) lik
 - First delete the bluetooth profile(somewhere it's called forget the device or unpair the device) on your device
 - Enter layer 2 and doubletap the trackpad(You can tap the lower right aA key to trigger sticky layer 2 or hold the aA key to enter layer2)
 - Refresh the Bluetooth setting page on your device(You can turn on and off the bluetooth) and then you can pair with the keyboard again
+
+## Multi device connect [🔼](#contents)
+By default the keyboard can be paired with 4 devices at the same time and can be switched between them seamlessly. Here are the steps how to connect with devices:
 
 ## Trackpad [🔼](#contents)
 
