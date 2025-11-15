@@ -132,6 +132,9 @@ The picture below shows you how it looks like when the keyboard connects with ZM
 ## <a name='Mouse DPI change on the fly  '> Mouse DPI change on the fly   </a>
 ## <a name='How to update the firmware  '> How to update the firmware   </a>
 ## <a name='Emergency way to enter bootloader  '> Emergency way to enter bootloader   </a>
+There is a hole at the bottom of the keyboard, and inside that's the reset button. After connect the keyboard with a computer, you can quickly tap the reset button using a small pin to force the keyboard into bootloader mode
+<img width="764" height="518" alt="image" src="https://github.com/user-attachments/assets/af6200df-5764-468b-861d-53da466ea592" />
+
 # <a name='Some tipps for using this keyboard  '>Some tipps for using this keyboard  
 ## <a name='iphone or IOS users  '>iphone or IOS users  
 # <a name='Advanced methods of using this keyboard  '>Advanced methods of using this keyboard   </a>  
