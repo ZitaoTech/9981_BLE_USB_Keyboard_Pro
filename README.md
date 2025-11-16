@@ -121,7 +121,9 @@ Before you use ZMK Studio, you need to ```turn off``` the bluetooth from your ph
 
 The picture below shows you how it looks like when the keyboard connects with ZMK Studio successfully.
 
-<img width="3102" height="1390" alt="image" src="https://github.com/user-attachments/assets/dcad38e5-0f24-43c1-82c1-8d4393dfe47e" />
+<p align="center">
+<img width="1551" height="695" alt="image" src="https://github.com/user-attachments/assets/dcad38e5-0f24-43c1-82c1-8d4393dfe47e" >
+</p>
 
 > [!NOTE]
 > Currently The ZMK Studio is still beta version, there are some functions that ```can not``` be configured e.g. macro, 
@@ -131,9 +133,20 @@ The picture below shows you how it looks like when the keyboard connects with ZM
 ## <a name='Advanced Keymap Updating  '>Advanced Keymap Updating   </a>
 ## <a name='Mouse DPI change on the fly  '> Mouse DPI change on the fly   </a>
 ## <a name='How to update the firmware  '> How to update the firmware   </a>
+Because this keyboard is powered by open sourced ZMK firmware, which allows you to modify different features yourself, and thus you might need to update the firmware yourself. The following are steps to update the firmware.
+
+1. Connect the keyboard with a computer
+2. Make the keyboard into bootloader mode(By default you need to enter layer2 and press the dollar key)
+3. A new USB Disk will be found by you computer
+4. Drag the new .uf2 firmware file into the USB Disk and the keyboard is finished with updating
+
+
 ## <a name='Emergency way to enter bootloader  '> Emergency way to enter bootloader   </a>
-There is a hole at the bottom of the keyboard, and inside that's the reset button. After connect the keyboard with a computer, you can quickly tap the reset button using a small pin to force the keyboard into bootloader mode
-<img width="764" height="518" alt="image" src="https://github.com/user-attachments/assets/af6200df-5764-468b-861d-53da466ea592" />
+There is a hole at the bottom of the keyboard, and inside that's the reset button. After connect the keyboard with a computer, you can quickly tap the reset button using a small pin to force the keyboard into ```bootloader mode```
+
+<p align="center">
+<img width="764" height="518" alt="image" src="https://github.com/user-attachments/assets/af6200df-5764-468b-861d-53da466ea592" >
+</p>
 
 # <a name='Some tipps for using this keyboard  '>Some tipps for using this keyboard  
 ## <a name='iphone or IOS users  '>iphone or IOS users  
@@ -142,10 +155,13 @@ There is a hole at the bottom of the keyboard, and inside that's the reset butto
 First you need to build the toolchain of ZMK firmware, it's recommended to build it under Github Codespaces. Here are the steps for you to build the toolchain via Codespaces:  
 0. Register a Github account if you don't have one
 1. Access the zmk firmware [github page](https://github.com/zmkfirmware/zmk)  
-2. Create a codespace by clicking this icon:  
-<img width="744" height="496" alt="image" src="https://github.com/user-attachments/assets/3c08bbc8-ac93-4895-8304-b2366401aae5" />
+2. Create a codespace by clicking this icon:
+
+<p align="center">
+<img width="744" height="496" alt="image" src="https://github.com/user-attachments/assets/3c08bbc8-ac93-4895-8304-b2366401aae5" >
+ </p>
  
-3. When the codespace is finished setting up, type ```sh ``` in the terminal of the codespace  
+4. When the codespace is finished setting up, type ```sh ``` in the terminal of the codespace  
 
 # <a name='Others  '>Others   </a>  
 ## <a name='dimensions about the keyboard  '>dimensions about the keyboard   </a>  
