@@ -57,7 +57,7 @@ How to check the Bluetooth version of your device: google (your device name) lik
 - By default the keyboard has 4 Layers, when you just turn on the keyboard, the keyboard is at layer0-the QWERTY layer.  
 - When you tap or hold the ```SYM``` key, the keyboard will enter layer1, and the keyboard backlight will start blinking, you can type numbers or symbols at this layer.  
 - When you tap or hold the ```aA``` key at the lower right corner, the keyboard will enter layer2 and the keyboard backlight will do a loop effect, you can type some symbols and do some Bluetooth behaviors at this layer.
-- The layer 3 basically has no keycode, this layer is reserved for the customer, and the keyboard will blink the twice speed as the layer 1.  
+- The layer 3 basically has no keycode, this layer is reserved for the customer, and the keyboard backlight will blink the twice speed as the layer 1 when you are at layer 3.  
 
 
 **Now let's check the keymap.**  
