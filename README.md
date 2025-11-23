@@ -16,11 +16,16 @@ The fully open-sourced P9981 BLE&USB Keyboard is the smallest ZMK-powered keyboa
 - [About this keyboard](#About-this-keyboard-)
 - [Before you buy/use](#Before-you-buy-)
 - [Where to buy](#Where-to-buy-)
-- [How to use this keyboard](#How-to-use-this-keyboard-)
+- [How to use this keyboard and keymap](#How-to-use-this-keyboard-)
 - [How to connect this keyboard with your device](#How-to-connect-this-keyboard-with-your-device-)
 - [Multi device connect](#Multi-device-connect)
 - [Trackpad](#Trackpad-)
-- 
+- [USB&BLE Output select](#USB&BLE-output-select)
+- [Keymap updating](#Realtime-keymap-updating)
+- [Tipps for Android and iPhone users](#Some-tipps-for-using-this-keyboard)
+- [Advanced methods of using this keyboard](#Advanced-methods-of-using-this-keyboard)
+- [Troubleshoot](#troubleshoot)
+- [Dimension and weight](#dimensions-of-the-keyboard)
 # About this keyboard [🔼](#contents)
 This mini Keyboard uses the cloned P9981 keycap with Blackberry 9380 trackpad and powered by the NRF52840 Microcontroller and operates under ZMK Firmware with extra custom driver.  
 
@@ -186,11 +191,11 @@ Shortcuts:
 - Hold gui key and press enter to go to desktop.
 - Hold alt and press tab to enter multiapp control.
 
-What's the gui key?
+**What's the ```gui key```?**
 <p align="center">
 <img width="608"  alt="image" src="https://github.com/user-attachments/assets/3cb96a41-8495-41e6-b9f6-109dddb769c1" />
 </p>
-That's the second bigger top row key, it's also the command key(⌘) on IOS
+By default that's the second bigger top row key, it's also the command key(⌘) on IOS
 
 # Advanced methods of using this keyboard [🔼](#Advanced-methods-of-using-this-keyboard) 
 
