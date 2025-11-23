@@ -1,4 +1,4 @@
-# Copyright (c) 2023 ZitaoTech
+# Copyright (c) 2025 ZitaoTech
 # SPDX-License-Identifier: MIT
 
 config BOARD_BBP9981
@@ -13,5 +13,19 @@ config A320_TRACKPAD_SCROLL_INTERVAL
     range 0 200
     help
       The bigger this value, the slower the trackpad scrolls
+
+config A320_LOG_LEVEL
+	int "Log Level for Touch"
+	default 4
+
+config A320
+	bool "A320 Driver"
+	depends on I2C && GPIO
+	help
+	  Projected capacitive trackpad/touchscreen controller.
+
+config INPUT_A320_INIT_PRIORITY
+  int "A320 Initialization Priority"
+  default 90
 
 endmenu
