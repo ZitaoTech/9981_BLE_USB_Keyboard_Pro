@@ -121,7 +121,13 @@ Similarly, you can pair this keyboard with a third and a fourth device.
 > - The BT_CLEAR keycoode — which is triggered by double-tapping the trackpad on Layer 2 — is calculated independently for each device. This means that when you trigger BT_CLEAR while connected to the second device, it won’t affect any of the other devices.
 
 ## Trackpad [🔼](#contents)
-There is a trackpad which can be used as mouse, iPhone useers need to enable the 
+- There is a trackpad which can be used as mouse, iPhone users need to enable the AssistiveTouch function to use the trackpad as mouse.  
+- Trackpad led: When you put your finger on the trackpad, the trackpad led will light up and the brightness will show the speed of the mouse speed(the higher the dpi, the more brighter the led) When the keyboard is waiting to be paired or the output is USB, the trackpad led will start blinking.  
+- How to adjust the mouse speed: Enter layer 2 and press V to decrease the dpi, or press N to increase the dpi. The dpi can be shown by the brightness of the trackpad led.
+- Scroll function: When Caps Lock is activated, the trackpad led enters a cyclic lighting mode, and the trackpad works as a scroll wheel.
+
+## USB&BLE Output select [🔼](#USB&BLE-output-select)
+The keyboard supports both USB and BLE output, by default the output is BLE. Assume the keyboard is both connected with a PC and paired with a phone, you can toggle the output by double-tapping the dollar key at layer2, if the output is USB the trackpad led will start blinking every second.
 
 ## Realtime Keymap Updating [🔼](#Realtime-keymap-updating)
 [ZMK Studio](https://zmk.dev/docs/features/studio) provides runtime update functionality to ZMK powered devices, allowing users to change their keymap layers without flashing new firmware to their keyboards.  
@@ -152,16 +158,40 @@ Because this keyboard is powered by open sourced ZMK firmware, which allows you 
 3. A new USB Disk will be found by you computer
 4. Drag the new .uf2 firmware file into the USB Disk and the keyboard is finished with updating
 
-
-## <a name='Emergency way to enter bootloader  '> Emergency way to enter bootloader   </a>
+## Emergency way to enter bootloader [🔼](#Emergency-way-to-enter-bootloader)
 There is a hole at the bottom of the keyboard, and inside that's the reset button. After connect the keyboard with a computer, you can quickly tap the reset button using a small pin to force the keyboard into ```bootloader mode```
 
 <p align="center">
 <img width="764" height="518" alt="image" src="https://github.com/user-attachments/assets/af6200df-5764-468b-861d-53da466ea592" >
 </p>
 
-# <a name='Some tipps for using this keyboard  '>Some tipps for using this keyboard  
+# Some tipps for using this keyboard [🔼](#Some-tipps-for-using-this-keyboard)
 ## iPhone or IOS users [🔼](#iPhone-or-IOS-users)
+If you need to use trackpad as mouse or scroll wheel function on iphone or ipad, there are some settings that you need to do:
+
+- Go to Settings-> Accessibility-> Touch-> AssistiveTouch -> enable AssistiveTouch and you can use touchpad as mouse on iphone or ipad
+- Go to Settings-> General-> Keyboard-> Hardware Keyboard-> disable Cpas Lock Language Switch and you can use the trackpad as scroll wheel when capslock is on.
+
+And you can disable the always show menu to remove the grey dot when your phone is connected with keyboard
+<p align="center">
+<img width="300"  alt="image" src="https://github.com/user-attachments/assets/5b663b30-0268-48c6-9ff0-8dcf54873e1c" />
+</p>
+
+## Android users [🔼](#Android-users)
+I noticed that about ten seconds after the keyboard is paired with an Android phone for the first time, it will reconnect once. During this brief period, you won’t be able to type or move the mouse. This is normal, so don’t worry.
+
+Shortcuts: 
+**There are some useful shortcuts on android phones:**
+- Hold gui key and press N to check messages.
+- Hold gui key and press enter to go to desktop.
+- Hold alt and press tab to enter multiapp control.
+
+What's the gui key?
+<p align="center">
+<img width="608"  alt="image" src="https://github.com/user-attachments/assets/3cb96a41-8495-41e6-b9f6-109dddb769c1" />
+</p>
+That's the second bigger top row key, it's also the command key(⌘) on IOS
+
 # Advanced methods of using this keyboard [🔼](#Advanced-methods-of-using-this-keyboard) 
 
 ## Build your own firmware [🔼](#Build-your-own-firmware)
@@ -181,9 +211,27 @@ First you need to build the toolchain of ZMK firmware, it's recommended to build
 7. compile the firmware by using ```cd app``` and ```west build -p -b bbp9981``` and zmk will start compiling the firmware
 8. the compiled firmware is ```app/build/zephyr/zmk.uf2```. You can download and update the firmware
 # Troubleshoot [🔼](#troubleshoot)
+- Why did the keyboard feel bad to type on when I first receive it?
+
+Because the keycap is made of silicone, when the keyboard is transported by air, the low temperature can make the silicone stiffen slightly. So when you first receive the keyboard, it may feel bad to type with. Once it warms up to room temperature, the typing feel will improve. The same thing also happens with other BlackBerry keyboards.  
+- Why is my trackpad not moving?
+
+The trackpad can be manually turned on/off. You may have accidentally pressed ‘T’ on Layer 2 and disabled it. In this case, enter Layer 2 again and press ‘T’ once more to re-enable the touchpad.  
+
+- Why can't my keyboard be paired with my device?
+
+It’s possible that after the previous pairing, the keyboard didn’t clear its pairing information. You need to switch to Layer 2 and double-tap the touchpad to erase the keyboard’s pairing data, and then you can start a new pairing.
+
+> [!CAUTION]
+> After deleting the pairing on your phone or on the keyboard, it’s important to refresh the Bluetooth page on your device. The easiest way is to just restart Bluetooth module.
+
+- Why is my keyboard not having backlight?
+
+Enter layer 2 and press ‘B’ so you can bring the backlight back again
+
 
 # Others [🔼](#others) 
-## dimensions of the keyboard [🔼](#dimensions-of-the-keyboard)
+## Dimensions of the keyboard [🔼](#dimensions-of-the-keyboard)
 The picture below shows the outerline dimension of the keyboard  
 <img width="1786" height="1216" alt="9981_PRO_dimension" src="https://github.com/user-attachments/assets/2382bf18-76bf-47c8-8188-512b67dbcade" />
 ## Weight [🔼](#Weight)
