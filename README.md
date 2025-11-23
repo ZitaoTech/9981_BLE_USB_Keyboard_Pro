@@ -26,6 +26,7 @@ The fully open-sourced P9981 BLE&USB Keyboard is the smallest ZMK-powered keyboa
 - [Advanced methods of using this keyboard](#Advanced-methods-of-using-this-keyboard)
 - [Troubleshoot](#troubleshoot)
 - [Dimension and weight](#dimensions-of-the-keyboard)
+- [Inspiration](#Inspiration)
 # About this keyboard [🔼](#contents)
 This mini Keyboard uses the cloned P9981 keycap with Blackberry 9380 trackpad and powered by the NRF52840 Microcontroller and operates under ZMK Firmware with extra custom driver.  
 
@@ -241,3 +242,6 @@ The picture below shows the outerline dimension of the keyboard
 <img width="1786" height="1216" alt="9981_PRO_dimension" src="https://github.com/user-attachments/assets/2382bf18-76bf-47c8-8188-512b67dbcade" />
 ## Weight [🔼](#Weight)
 The total weight of the keyboard is 53.3 g
+
+# Inspiration [🔼](#Inspiration) 
+This [page](https://github.com/ZitaoTech/9981_BLE_USB_Keyboard_Pro/tree/main/Inspiration) shows what the keyboard can do besides functioning as a standalone Bluetooth keyboard.
