@@ -15,3 +15,7 @@ First you need to build the toolchain of ZMK firmware, it's recommended to build
 6. copy and paste the ```bbp9981``` folder into the ```app/boards/arm``` folder
 7. compile the firmware by using ```cd app``` and ```west build -p -b bbp9981``` and zmk will start compiling the firmware
 8. the compiled firmware is ```app/build/zephyr/zmk.uf2```. You can download and update the firmware
+
+## Or build with github action:
+
+Please refer to this [page](https://github.com/ZitaoTech/zmk-config-9981-pro)
