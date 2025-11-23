@@ -12,9 +12,6 @@ The fully open-sourced P9981 BLE&USB Keyboard is the smallest ZMK-powered keyboa
 </table>
 
 
-
-
-
 ## Contents
 - [About this keyboard](#About-this-keyboard-)
 - [Before you buy/use](#Before-you-buy-)
@@ -39,18 +36,19 @@ This mini Keyboard uses the cloned P9981 keycap with Blackberry 9380 trackpad an
 |USB&BLE Output|Support both wired and wireless connect|
 |Shoulder keys|There are two shoulder keys on top|
 |Small size| The smallest wireless keyboard mouse combo in the world|
-|Aluminium body|The upper case is made of aluminium, lower case 3d printed|
+|Aluminium body|The top case is made of aluminium, lower case 3d printed|
 |Multidevice connect| The keyboard can be paired with up to 4 devices at the same time|
+|Open source| [Hardware](https://github.com/ZitaoTech/9981_BLE_USB_Keyboard_Pro/tree/main/Hardware) and [software](https://github.com/ZitaoTech/9981_BLE_USB_Keyboard_Pro/tree/main/ZMK%20source%20code) all open sourced|
 |__NKRO__|__There are integrated diodes on the keyboard, all the keys can be pressed at the same time__(Other original Blackberry keyboards don't have this feature)|
 
 ## Before you buy/use [🔼](#contents)
 
 **Bluetooth version check**: This keyboard can only be paired wirelessly with devices that have **BLE 4.2 module or higher**, please check if your device have the right Bluetooth module, otherwise the keyboard can not work with your device wirelessly!  
 How to check the Bluetooth version of your device: google (your device name) like iphone 8 and plus Bluetooth version and you will find the answer like this:
- <img src="https://github.com/ZitaoTech/BB9900-USB_BLE_Keyboard/blob/main/Pics/BLE%20VERSION%20check.png" width = "500" height = "200" alt="BLE VERSION CHECK" align=center />
+ <img src="https://github.com/ZitaoTech/BB9900-USB_BLE_Keyboard/blob/main/Pics/BLE%20VERSION%20check.png" width = "500" alt="BLE VERSION CHECK" align=center />
 
 ## Where to buy [🔼](#contents)
-- **If you are outside China**:    
+- **If you are outside China**: You can buy the keyboard at Elecrow    
 - **If you are in China**: 在闲鱼搜索用户御坂200016号
 
 # How to use this keyboard [🔼](#contents)
@@ -109,10 +107,23 @@ How to check the Bluetooth version of your device: google (your device name) lik
 
 ## Multi device connect [🔼](#contents)
 By default the keyboard can be paired with 4 devices at the same time and can be switched between them seamlessly. Here are the steps how to connect with devices:
+1. Assume you have already connected this keyboard with one device
+2. Now enter layer 2 and press the second bigger top row key
+<p align="center">
+<img width="608"  alt="image" src="https://github.com/user-attachments/assets/3cb96a41-8495-41e6-b9f6-109dddb769c1" />
+</p>
+Now the keyboard is ready to be paired with second device.  
+Similarly, you can pair this keyboard with a third and a fourth device.  
+
+3. Once pairing is done, you can switch between the devices the same way.
+
+> [!CAUTION]
+> - The BT_CLEAR keycoode — which is triggered by double-tapping the trackpad on Layer 2 — is calculated independently for each device. This means that when you trigger BT_CLEAR while connected to the second device, it won’t affect any of the other devices.
 
 ## Trackpad [🔼](#contents)
+There is a trackpad which can be used as mouse, iPhone useers need to enable the 
 
-## <a name='Realtime Keymap Updating  '>Realtime Keymap Updating   </a>
+## Realtime Keymap Updating [🔼](#Realtime-keymap-updating)
 [ZMK Studio](https://zmk.dev/docs/features/studio) provides runtime update functionality to ZMK powered devices, allowing users to change their keymap layers without flashing new firmware to their keyboards.  
 
 You can use ZMK Studio with ```Chrome/Edge``` at [https://zmk.studio/](https://zmk.studio/).  
@@ -129,10 +140,11 @@ The picture below shows you how it looks like when the keyboard connects with ZM
 > Currently The ZMK Studio is still beta version, there are some functions that ```can not``` be configured e.g. macro, 
 > there is another advanced way to update the keymap, please check the content below
 
-## Bluetooth connect [🔼](#contents)
-## <a name='Advanced Keymap Updating  '>Advanced Keymap Updating   </a>
-## <a name='Mouse DPI change on the fly  '> Mouse DPI change on the fly   </a>
-## <a name='How to update the firmware  '> How to update the firmware   </a>
+## Advanced Keymap Updating [🔼](#Advanced-keymap-updating)
+Since the ZMK Studio is still in beta stage, There’s also a more straightforward method to edit the keymap.  
+Please refer to this [page](https://github.com/ZitaoTech/zmk-config-9981-pro)
+
+## How to update the firmware [🔼](#How-to-update-the-firmware)
 Because this keyboard is powered by open sourced ZMK firmware, which allows you to modify different features yourself, and thus you might need to update the firmware yourself. The following are steps to update the firmware.
 
 1. Connect the keyboard with a computer
@@ -149,9 +161,10 @@ There is a hole at the bottom of the keyboard, and inside that's the reset butto
 </p>
 
 # <a name='Some tipps for using this keyboard  '>Some tipps for using this keyboard  
-## <a name='iphone or IOS users  '>iphone or IOS users  
-# <a name='Advanced methods of using this keyboard  '>Advanced methods of using this keyboard   </a>  
-## <a name='Build your own firmware   '>Build your own firmware   </a> 
+## iPhone or IOS users [🔼](#iPhone-or-IOS-users)
+# Advanced methods of using this keyboard [🔼](#Advanced-methods-of-using-this-keyboard) 
+
+## Build your own firmware [🔼](#Build-your-own-firmware)
 First you need to build the toolchain of ZMK firmware, it's recommended to build it under Github Codespaces. Here are the steps for you to build the toolchain via Codespaces:  
 0. Register a Github account if you don't have one
 1. Access the zmk firmware [github page](https://github.com/zmkfirmware/zmk)  
@@ -161,11 +174,17 @@ First you need to build the toolchain of ZMK firmware, it's recommended to build
 <img width="744" height="496" alt="image" src="https://github.com/user-attachments/assets/3c08bbc8-ac93-4895-8304-b2366401aae5" >
  </p>
  
-4. When the codespace is finished setting up, type ```sh ``` in the terminal of the codespace  
+3. When the codespace is finished setting up, type ```cd zmk ``` in the terminal of the codespace
+4. type ```west init -l app/``` in the terminal
+5. type ```west update``` and wait about 5-10 minutes and the toolchain is finished setting up
+6. copy and paste the ```bbp9981``` folder into the ```app/boards/arm``` folder
+7. compile the firmware by using ```cd app``` and ```west build -p -b bbp9981``` and zmk will start compiling the firmware
+8. the compiled firmware is ```app/build/zephyr/zmk.uf2```. You can download and update the firmware
+# Troubleshoot [🔼](#troubleshoot)
 
-# <a name='Others  '>Others   </a>  
-## <a name='dimensions about the keyboard  '>dimensions about the keyboard   </a>  
+# Others [🔼](#others) 
+## dimensions of the keyboard [🔼](#dimensions-of-the-keyboard)
 The picture below shows the outerline dimension of the keyboard  
 <img width="1786" height="1216" alt="9981_PRO_dimension" src="https://github.com/user-attachments/assets/2382bf18-76bf-47c8-8188-512b67dbcade" />
-## <a name='Weight  '>Weight   </a>  
+## Weight [🔼](#Weight)
 The total weight of the keyboard is 53.3 g
