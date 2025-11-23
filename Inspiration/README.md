@@ -20,5 +20,5 @@ This page shows what the keyboard can do besides functioning as a standalone Blu
 - ### Phone case for Samsung Z Flip 5 or 6
 <p align="center">
 <img width="400" alt="image" src="https://github.com/user-attachments/assets/9e317465-fb42-49e4-8a4b-cfe59babc444" />
-
 </p>
+
