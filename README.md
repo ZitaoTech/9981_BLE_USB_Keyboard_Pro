@@ -133,10 +133,10 @@ Similarly, you can pair this keyboard with a third and a fourth device.
 - How to adjust the mouse speed: Enter layer 2 and press V to decrease the dpi, or press N to increase the dpi. The dpi can be shown by the brightness of the trackpad led.
 - Scroll function: When Caps Lock is activated, the trackpad led enters a cyclic lighting mode, and the trackpad works as a scroll wheel.
 
-## USB&BLE Output select [🔼](#USB&BLE-output-select)
+## USB&BLE Output select [🔼](#contents)
 The keyboard supports both USB and BLE output, by default the output is BLE. Assume the keyboard is both connected with a PC and paired with a phone, you can toggle the output by double-tapping the dollar key at layer2, if the output is USB the trackpad led will start blinking every second.
 
-## Realtime Keymap Updating [🔼](#Realtime-keymap-updating)
+## Realtime Keymap Updating [🔼](#contents)
 [ZMK Studio](https://zmk.dev/docs/features/studio) provides runtime update functionality to ZMK powered devices, allowing users to change their keymap layers without flashing new firmware to their keyboards.  
 
 You can use ZMK Studio with ```Chrome/Edge``` at [https://zmk.studio/](https://zmk.studio/).  
@@ -153,11 +153,11 @@ The picture below shows you how it looks like when the keyboard connects with ZM
 > Currently The ZMK Studio is still beta version, there are some functions that ```can not``` be configured e.g. macro, 
 > there is another advanced way to update the keymap, please check the content below
 
-## Advanced Keymap Updating [🔼](#Advanced-keymap-updating)
+## Advanced Keymap Updating [🔼](#contents)
 Since the ZMK Studio is still in beta stage, There’s also a more straightforward method to edit the keymap.  
 Please refer to this [page](https://github.com/ZitaoTech/zmk-config-9981-pro)
 
-## How to update the firmware [🔼](#How-to-update-the-firmware)
+## How to update the firmware [🔼](#contents)
 Because this keyboard is powered by open sourced ZMK firmware, which allows you to modify different features yourself, and thus you might need to update the firmware yourself. The following are steps to update the firmware.
 
 1. Connect the keyboard with a computer
@@ -165,15 +165,15 @@ Because this keyboard is powered by open sourced ZMK firmware, which allows you 
 3. A new USB Disk will be found by you computer
 4. Drag the new .uf2 firmware file into the USB Disk and the keyboard is finished with updating
 
-## Emergency way to enter bootloader [🔼](#Emergency-way-to-enter-bootloader)
+## Emergency way to enter bootloader [🔼](#contents)
 There is a hole at the bottom of the keyboard, and inside that's the reset button. After connect the keyboard with a computer, you can quickly tap the reset button using a small pin to force the keyboard into ```bootloader mode```
 
 <p align="center">
 <img width="764" height="518" alt="image" src="https://github.com/user-attachments/assets/af6200df-5764-468b-861d-53da466ea592" >
 </p>
 
-# Some tipps for using this keyboard [🔼](#Some-tipps-for-using-this-keyboard)
-## iPhone or IOS users [🔼](#iPhone-or-IOS-users)
+# Some tipps for using this keyboard [🔼](#contents)
+## iPhone or IOS users [🔼](#contents)
 If you need to use trackpad as mouse or scroll wheel function on iphone or ipad, there are some settings that you need to do:
 
 - Go to Settings-> Accessibility-> Touch-> AssistiveTouch -> enable AssistiveTouch and you can use touchpad as mouse on iphone or ipad
@@ -184,7 +184,7 @@ And you can disable the always show menu to remove the grey dot when your phone 
 <img width="300"  alt="image" src="https://github.com/user-attachments/assets/5b663b30-0268-48c6-9ff0-8dcf54873e1c" />
 </p>
 
-## Android users [🔼](#Android-users)
+## Android users [🔼](#contents)
 I noticed that about ten seconds after the keyboard is paired with an Android phone for the first time, it will reconnect once. During this brief period, you won’t be able to type or move the mouse. This is normal, so don’t worry.
 
 Shortcuts: 
@@ -199,9 +199,9 @@ Shortcuts:
 </p>
 By default that's the second bigger top row key, it's also the command key(⌘) on IOS
 
-# Advanced methods of using this keyboard [🔼](#Advanced-methods-of-using-this-keyboard) 
+# Advanced methods of using this keyboard [🔼](#contents) 
 
-## Build your own firmware [🔼](#Build-your-own-firmware)
+## Build your own firmware [🔼](#contents)
 First you need to build the toolchain of ZMK firmware, it's recommended to build it under Github Codespaces. Here are the steps for you to build the toolchain via Codespaces:  
 0. Register a Github account if you don't have one
 1. Access the zmk firmware [github page](https://github.com/zmkfirmware/zmk)  
@@ -217,7 +217,7 @@ First you need to build the toolchain of ZMK firmware, it's recommended to build
 6. copy and paste the ```bbp9981``` folder into the ```app/boards/arm``` folder
 7. compile the firmware by using ```cd app``` and ```west build -p -b bbp9981``` and zmk will start compiling the firmware
 8. the compiled firmware is ```app/build/zephyr/zmk.uf2```. You can download and update the firmware
-# Troubleshoot [🔼](#troubleshoot)
+# Troubleshoot [🔼](#contents)
 - Why did the keyboard feel bad to type on when I first receive it?
 
 Because the keycap is made of silicone, when the keyboard is transported by air, the low temperature can make the silicone stiffen slightly. So when you first receive the keyboard, it may feel bad to type with. Once it warms up to room temperature, the typing feel will improve. The same thing also happens with other BlackBerry keyboards.  
@@ -237,12 +237,12 @@ It’s possible that after the previous pairing, the keyboard didn’t clear its
 Enter layer 2 and press ‘B’ so you can bring the backlight back again
 
 
-# Others [🔼](#others) 
-## Dimensions of the keyboard [🔼](#dimensions-of-the-keyboard)
+# Others [🔼](#contents) 
+## Dimensions of the keyboard [🔼](#contents)
 The picture below shows the outerline dimension of the keyboard  
 <img width="1786" height="1216" alt="9981_PRO_dimension" src="https://github.com/user-attachments/assets/2382bf18-76bf-47c8-8188-512b67dbcade" />
-## Weight [🔼](#Weight)
+## Weight [🔼](#contents)
 The total weight of the keyboard is 53.3 g
 
-# Inspiration [🔼](#Inspiration) 
+# Inspiration [🔼](#contents) 
 This [page](https://github.com/ZitaoTech/9981_BLE_USB_Keyboard_Pro/tree/main/Inspiration) shows what the keyboard can do besides functioning as a standalone Bluetooth keyboard.
