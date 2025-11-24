@@ -13,20 +13,21 @@ The fully open-sourced P9981 BLE&USB Keyboard is the smallest ZMK-powered keyboa
 
 
 ## Contents
-- [About this keyboard](#About-this-keyboard-)
-- [Before you buy/use](#Before-you-buy-)
-- [Where to buy](#Where-to-buy-)
-- [How to use this keyboard and keymap](#How-to-use-this-keyboard-)
-- [How to connect this keyboard with your device](#How-to-connect-this-keyboard-with-your-device-)
-- [Multi device connect](#Multi-device-connect)
-- [Trackpad](#Trackpad-)
-- [USB&BLE Output select](#USB&BLE-output-select)
-- [Keymap updating](#Realtime-keymap-updating)
-- [Tipps for Android and iPhone users](#Some-tipps-for-using-this-keyboard)
-- [Advanced methods of using this keyboard](#Advanced-methods-of-using-this-keyboard)
+- [About this keyboard](#about-this-keyboard)
+- [Before you buy/use](#before-you-buyuse)
+- [Where to buy](#where-to-buy)
+- [How to use this keyboard and keymap](#how-to-use-this-keyboard)
+- [How to connect this keyboard with your device](#how-to-connect-this-keyboard-with-your-device)
+- [Multi device connect](#multi-device-connect)
+- [Trackpad](#trackpad)
+- [USB&BLE Output select](#usbble-output-select)
+- [Keymap updating](#realtime-keymap-updating)
+- [Tipps for Android and iPhone users](#some-tipps-for-using-this-keyboard)
+- [Advanced methods of using this keyboard](#advanced-methods-of-using-this-keyboard)
 - [Troubleshoot](#troubleshoot)
 - [Dimension and weight](#dimensions-of-the-keyboard)
-- [Inspiration](#Inspiration)
+- [Inspiration](#inspiration)
+
 # About this keyboard [🔼](#contents)
 This mini Keyboard uses the cloned P9981 keycap with Blackberry 9380 trackpad and powered by the NRF52840 Microcontroller and operates under ZMK Firmware with extra custom driver.  
 
@@ -104,7 +105,7 @@ How to check the Bluetooth version of your device: google (your device name) lik
 ## How to connect this keyboard with your device [🔼](#contents)
 - Turn on the Bluetooth on your phone
 - Find the device ```bbp9981``` and pair with it then you should type with the keyboard
-- There are some settings for IOS users, please check this.
+- There are some settings for IOS users, please check [this](https://github.com/ZitaoTech/9981_BLE_USB_Keyboard_Pro/tree/main?tab=readme-ov-file#iphone-or-ios-users-).
 > [!CAUTION]
 > After you delete the bluetooth profile and if you want to pair with the keyboard with another device when you have already paired with some device before, make sure to enter layer 2 and double tap the trackpad to clear the bluetooth profile on the keyboard side. Otherwise there will be error when you want to pair with another device!!! Please use the following steps to delete the bluetooth pairing
 - First delete the bluetooth profile(somewhere it's called forget the device or unpair the device) on your device
