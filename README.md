@@ -13,7 +13,7 @@ The fully open-sourced P9981 BLE&USB Keyboard is the smallest ZMK-powered keyboa
 
 
 ## Contents
-- [About this keyboard](#About-this-keyboard)
+- [About this keyboard](#about-this-keyboard)
 - [Before you buy/use](#before-you-buyuse)
 - [Where to buy](#Where-to-buy)
 - [How to use this keyboard and keymap](#How-to-use-this-keyboard)
