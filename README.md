@@ -56,7 +56,7 @@ How to check the Bluetooth version of your device: google (your device name) lik
  <img src="https://github.com/ZitaoTech/BB9900-USB_BLE_Keyboard/blob/main/Pics/BLE%20VERSION%20check.png" width = "500" alt="BLE VERSION CHECK" align=center />
 
 ## Where to buy [🔼](#contents)
-- **If you are outside China**: You can buy the keyboard at Elecrow    
+- **If you are outside China**: You can buy the keyboard at [Elecrow](https://www.elecrow.com/p9981-ble-usb-keyboard-pro.html)    
 - **If you are in China**: 在闲鱼搜索用户御坂200016号
 
 # How to use this keyboard [🔼](#contents)
@@ -226,12 +226,28 @@ Because the keycap is made of silicone, when the keyboard is transported by air,
 
 The trackpad can be manually turned on/off. You may have accidentally pressed ‘T’ on Layer 2 and disabled it. In this case, enter Layer 2 again and press ‘T’ once more to re-enable the touchpad.  
 
+There is another possibility: the trackpad itself might be defect. Here is a quick way to verify it:  
+
+First, place your finger on the touchpad and move. See whether the trackpad backlight lights up.
+If not, enter Layer 2 and press ‘T’. Then place your finger on the trackpad again and move.
+If the trackpad backlight still does not light up, the touchpad is likely defective.
+In this case, please contact Elecrow.  
+
 - Why can't my keyboard be paired with my device?
 
 It’s possible that after the previous pairing, the keyboard didn’t clear its pairing information. You need to switch to Layer 2 and double-tap the touchpad to erase the keyboard’s pairing data, and then you can start a new pairing.
 
 > [!CAUTION]
 > After deleting the pairing on your phone or on the keyboard, it’s important to refresh the Bluetooth page on your device. The easiest way is to just restart Bluetooth module.
+
+If in this way your device still can't pair with the keyboard, please follow the steps below:  
+
+Press and hold the **aA** key at the bottom-right corner, then press the **first top-row key**, and double-tap the touchpad.  
+
+Next, without releasing the aA key, press the **second top-row key**, and double-tap the touchpad again.
+Repeat this process for **all four top-row keys** to clear pairing information for all 4 bluetooth channels.  
+
+After that, pair your device with the keyboard again.
 
 - Why is my keyboard not having backlight?
 
