@@ -27,16 +27,16 @@ This page will show you how to disassemble the 9981 Pro keyboard for repair and 
 
 ### After separating the top case, we can directly remove the 9981 keycaps from the smaller dome sheet board.
 <p align="center">
-<img width="880" height="1224" alt="image" src="https://github.com/user-attachments/assets/f6bd438d-5fb9-4cb6-bb2e-5fa664207fe2" />
+<img width="880"  alt="image" src="https://github.com/user-attachments/assets/f6bd438d-5fb9-4cb6-bb2e-5fa664207fe2" />
 <img width="880"  alt="image" src="https://github.com/user-attachments/assets/1f278652-7273-45e6-b87b-43ad7abc9b45" />
 </p>
 
 ### Then we can use our fingernail to pry off the dome sheet board.
 <p align="center">
-<img width="755" height="1260" alt="image" src="https://github.com/user-attachments/assets/04abc22a-ccd5-40f6-81a7-3a0d2f65daf5" />
+<img width="755"  alt="image" src="https://github.com/user-attachments/assets/04abc22a-ccd5-40f6-81a7-3a0d2f65daf5" />
 </p>
 
 ### Now we have fully disassembled the 9981 Pro keyboard.
 <p align="center">
-<img width="870" height="1312" alt="image" src="https://github.com/user-attachments/assets/0e50716a-b9c6-441b-95f2-aa4b6a20fc86" />
+<img width="870" alt="image" src="https://github.com/user-attachments/assets/0e50716a-b9c6-441b-95f2-aa4b6a20fc86" />
 </p>
