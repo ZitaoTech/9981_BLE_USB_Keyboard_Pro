@@ -1,0 +1,38 @@
+name: Build
+on: [push, pull_request, workflow_dispatch]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container:
+      image: zmkfirmware/zmk-build-arm:stable
+    name: Build
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Cache west modules
+        uses: actions/cache@v3
+        with:
+          path: |
+            modules/
+            tools/
+            zephyr/
+            bootloader/
+            zmk/
+          key: ${{ runner.os }}-build-${{ hashFiles('config/west.yml') }}
+          restore-keys: ${{ runner.os }}-build-
+      - name: West Init
+        run: west init -l "ZMK source code"
+      - name: West Update
+        run: west update
+      - name: West Export
+        run: west zephyr-export
+      - name: West Build (BBP9981)
+        run: west build -s "ZMK source code/zmk/app" -b bbp9981 -- -DSHIELD=bbp9981 -DZMK_CONFIG="/github/workspace/ZMK source code/bbp9981"
+      - name: Rename file
+        run: cp build/zephyr/zmk.uf2 bbp9981.uf2
+      - name: Archive (Firmware)
+        uses: actions/upload-artifact@v3
+        with:
+          name: firmware
+          path: bbp9981.uf2
